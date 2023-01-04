@@ -1,0 +1,75 @@
+O que é uma classe em Java e como ela é definida?
+Uma classe em Java é um tipo de dado que representa um conjunto de objetos com características (atributos) e comportamentos (métodos) semelhantes. Uma classe é definida utilizando a palavra-chave "class" seguida pelo nome da classe. 
+Por exemplo:
+
+public class MinhaClasse {
+
+  // Atributos e métodos da classe aqui
+
+}
+
+
+
+O que é um objeto em Java e como ele é criado a partir de uma classe?
+Um objeto em Java é uma instância de uma classe, ou seja, é uma representação concreta de uma classe. Para criar um objeto a partir de uma classe, utilizamos o operador "new" seguido pelo nome da classe e parênteses. 
+Por exemplo:
+
+
+
+MinhaClasse objeto = new MinhaClasse();
+
+
+
+O que é um construtor em Java e como ele é utilizado?
+Um construtor em Java é um método especial que é executado quando um objeto é criado a partir de uma classe. Ele é utilizado para inicializar os atributos do objeto e pode ter o mesmo nome da classe ou não. 
+Por exemplo:
+
+
+public class MinhaClasse {
+  public MinhaClasse() {
+    // Código de inicialização dos atributos aqui
+  }
+}
+
+MinhaClasse objeto = new MinhaClasse();
+
+
+
+
+O que são métodos em Java e como eles são definidos?
+Os métodos em Java são funções que pertencem a uma classe e podem ser utilizadas pelos objetos dessa classe. Eles são definidos com a seguinte sintaxe:
+
+Por exemplo:
+
+
+
+ [modificadores de acesso] [tipo de retorno] [nome do método]([lista de    parâmetros]) {
+  // Código do método aqui
+}
+
+
+  public int somar(int a, int b) {
+  return a + b;
+}
+
+
+
+
+O que são arrays em Java e como eles são criados?
+Os arrays em Java são estruturas de dados que permitem armazenar uma coleção de elementos do mesmo tipo. Eles são criados com a seguinte sintaxe:
+
+
+
+
+ [tipo do elemento] [] [nome do array] = new [tipo do elemento] [tamanho do array];
+			
+
+
+
+
+
+
+
+
+
+Para	testarmos os comandos: IDE Online JAVA											
